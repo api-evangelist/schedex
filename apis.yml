@@ -1,7 +1,25 @@
 aid: schedex
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/schedex.png
 name: Schedex
-description: Schedex is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Schedex is a workforce management platform built for food and beverage businesses,
+  consolidating staff scheduling, shift management, attendance tracking, and payroll into a
+  single mobile-first application. It offers mobile clock in/out with location technology,
+  schedule optimization across multiple locations, real-time labor-cost tracking and reporting,
+  automated wage and payroll calculation, leave requests and shift exchange, and a multilingual
+  branded app, with the goal of reducing labor costs by up to 15 percent. Schedex was surfaced
+  as a portfolio company of 500 Global and added to the API Evangelist network; it publishes no
+  public API, developer portal, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/schedex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Workforce Management
+- Scheduling
+- Time Tracking
+- Payroll
+- Food and Beverage
+- Human Resources
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://schedex.me
+- type: Login
+  url: https://www.schedex.co/
+- type: PrivacyPolicy
+  url: https://www.schedex.me/privacy-policy
+- type: DomainSecurity
+  url: security/schedex-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
